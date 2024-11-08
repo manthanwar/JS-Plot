@@ -1,0 +1,38 @@
+{
+  "name": "svg-plots",
+  "version": "2024.11.07",
+  "description": "Plots and charts using scalable vector graphics",
+  "keywords": [
+    "scalable vector graphics", "svg", "javascript", "js", "dom", "w3c",
+    "visualization", "animation", "canvas", "charts", "plots", "graphs"
+  ],
+  "homepage": "https://github.com/manthanwar/JS-Plots",
+  "author": {
+    "name": "Amit M. Manthanwar",
+    "url": "https://manthanwar.github.io/"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "url": "https://github.com/manthanwar/JS-Plots/graphs/contributors"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manthanwar/JS-Plots.git"
+  },
+  "license": "https://github.com/manthanwar/JS-Plots/blob/main/LICENSE.md",
+  "private": false,
+  "scripts": {
+    "build-node": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.web.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/manthanwar/JS-Plots/issues"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
